@@ -11,9 +11,7 @@ const (
 type testInfo struct {
 	key      string //秘钥
 	iv       string //iv
-	encText  string //加密后文本
 	origData string //原文
-	encrData []byte //加密后内容
 }
 
 func TestAesCbc256(t *testing.T) {
