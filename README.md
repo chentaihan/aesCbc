@@ -11,3 +11,5 @@ aes-cbc-128：使用的是golang自带的功能
 aes-cbc-256：把libmcrypt这个库的c语言实现，用go重新实现了一下
 
 实现原理：将c语言翻译成go语言
+
+实现过程记录：https://www.cnblogs.com/hlxs/p/9852594.html
